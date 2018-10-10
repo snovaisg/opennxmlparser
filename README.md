@@ -11,6 +11,6 @@ import gov.nih.nlm.iti.text.model.Document;
 
 ...
 
-Document document = Driver.getDocInfo(s);
+Document document = Driver.getDocInfo("123123.nxml");
 
 System.out.println(document.getFullText());
